@@ -19,6 +19,7 @@
       "extensions": [
         "ms-python.python",
         "github.copilot",
+        "GrapeCity.gc-excelviewer"
       ]
     }
   },
