@@ -1,10 +1,31 @@
-# GitHub Codespaces ♥️ Django
+# Voga Jewelry Sales and Inventory Repository
 
-Welcome to your shiny new Codespace running Django! We've got everything fired up and running for you to explore Django.
+This repository aims to collect sales and inventory data from Voga Jewelry throughout its history. The project consists of several stages outlined below:
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+## Project Overview
+The objective is to gather historical sales and inventory data from Voga Jewelry and perform various data processing and analysis tasks.
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+## Stage 1: Data Collection and Exploratory Data Analysis
+- Consolidate historical sales and inventory files from Voga Jewelry.
+- Perform exploratory data analysis and data cleaning to prepare the information for further processing.
+
+## Stage 2: Entity-Relationship Model Design
+- Design an Entity-Relationship (ER) model in SQL for the digital transformation of Voga Jewelry.
+
+## Stage 3: Database Deployment and Data Migration
+- Deploy an SQL database.
+- Populate the database with the collected historical information, effectively performing a data migration.
+
+## Stage 4: Business Intelligence Queries
+- Execute necessary queries to set up business intelligence reports and dashboards based on the data stored in the database.
+
+## Stage 5: Research and Development
+- Initiate research and development for a Python-based inventory system to enhance Voga Jewelry's inventory management capabilities.
+
+---
+
+**Note:** This repository is a work in progress and will be updated as the project progresses through its various stages.
+
 
 ## installing dependancies
 
