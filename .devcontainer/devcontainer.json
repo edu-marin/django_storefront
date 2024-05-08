@@ -12,7 +12,6 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "hello_world/templates/index.html"
       ]
     },
     "vscode": {
