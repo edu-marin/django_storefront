@@ -20,6 +20,6 @@ for sheet_name in sheet_names:
     print(f"Shape: {df.shape}")
     print(f"Column Names: {df.columns}\n")
 
-pd.concat(dataframes).columns
+all = pd.concat(dataframes)
+all.info()
 
-## To do, clean column names until we have a unified df
