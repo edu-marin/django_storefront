@@ -26,6 +26,14 @@ for sheet_name in sheet_names:
 all = pd.concat(dataframes)
 all[all.pvp.isnull()][["codigo", "source"]]  # pulseras varios no tiene costo ni pvp
 
+all.proveedor.value_counts(dropna=False)
+
+rename_provedor_dict = {
+    's.s.' : 'Soledad PRUEBA',
+}
+
+all = all.proveedor.replace(rename_provedor_dict).value_counts(dropna=False)
+all.to_excel("/workspaces/Voga/data_migration/data/all_acero.xlsx", index=False)
 
 # insert records in all dataframe into a sqlite db named acero.db
 import sqlite3
