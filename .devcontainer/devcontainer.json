@@ -17,7 +17,8 @@
       "extensions": [
         "ms-python.python",
         "github.copilot",
-        "GrapeCity.gc-excelviewer"
+        "GrapeCity.gc-excelviewer",
+        "alexcvzz.vscode-sqlite"
       ]
     }
   },
