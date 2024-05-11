@@ -18,7 +18,8 @@
         "ms-python.python",
         "github.copilot",
         "GrapeCity.gc-excelviewer",
-        "alexcvzz.vscode-sqlite"
+        "alexcvzz.vscode-sqlite",
+        "ms-azuretools.vscode-docker"
       ]
     }
   },
