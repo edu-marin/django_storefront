@@ -19,7 +19,7 @@
         "github.copilot",
         "GrapeCity.gc-excelviewer",
         "ms-azuretools.vscode-docker",
-        "formulahendry.vscode-mysql"
+        "cweijan.vscode-mysql-client2"
       ]
     }
   },
