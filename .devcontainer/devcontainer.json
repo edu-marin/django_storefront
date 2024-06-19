@@ -16,7 +16,6 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "github.copilot",
         "GrapeCity.gc-excelviewer",
         "ms-azuretools.vscode-docker",
         "cweijan.vscode-mysql-client2"
