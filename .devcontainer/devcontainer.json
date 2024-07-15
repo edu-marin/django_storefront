@@ -5,7 +5,7 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -r requirements.txt",
-  "postCreateCommand": "cp .env.example .env",
+  "postCreateCommand": "docker-compose up -d",
   "postAttachCommand": {
   },
   "customizations": {
@@ -26,7 +26,11 @@
     "8000": {
       "label": "Application",
       "onAutoForward": "openPreview"
+    },
+    "3306": {
+      "label": "MySQL",
+      "onAutoForward": "notify"
     }
   },
-  "forwardPorts": [3000]
+  "forwardPorts": [8000,3306]
 }
