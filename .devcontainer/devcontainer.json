@@ -18,7 +18,10 @@
         "ms-python.python",
         "GrapeCity.gc-excelviewer",
         "ms-azuretools.vscode-docker",
-        "cweijan.vscode-mysql-client2"
+        "cweijan.vscode-mysql-client2",
+        "ms-toolsai.jupyter"
+
+
       ]
     }
   },
