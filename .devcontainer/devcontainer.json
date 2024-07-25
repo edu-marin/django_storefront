@@ -6,12 +6,10 @@
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -r requirements.txt",
   "postCreateCommand": "docker-compose up -d",
-  "postAttachCommand": {
-  },
+  "postAttachCommand": "python manage.py runserver 0.0.0.0:8000",
   "customizations": {
     "codespaces": {
-      "openFiles": [
-      ]
+      "openFiles": []
     },
     "vscode": {
       "extensions": [
@@ -20,14 +18,12 @@
         "ms-azuretools.vscode-docker",
         "cweijan.vscode-mysql-client2",
         "ms-toolsai.jupyter"
-
-
       ]
     }
   },
   "portsAttributes": {
     "8000": {
-      "label": "Application",
+      "label": "Django",
       "onAutoForward": "openPreview"
     },
     "3306": {
@@ -35,5 +31,5 @@
       "onAutoForward": "notify"
     }
   },
-  "forwardPorts": [8000,3306]
+  "forwardPorts": [8000, 3306]
 }
