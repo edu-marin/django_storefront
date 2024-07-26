@@ -5,8 +5,8 @@
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "pip install -r requirements.txt",
-  "postCreateCommand": "docker-compose up -d",
-  "postAttachCommand": "python manage.py runserver 0.0.0.0:8000",
+  "postCreateCommand":  "./wait-for-docker.sh",
+  "postAttachCommand": "python manage.py runserver",
   "customizations": {
     "codespaces": {
       "openFiles": []
