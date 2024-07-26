@@ -12,5 +12,5 @@ docker-compose up -d
 # Esperar hasta que MySQL esté listo
 until docker exec mysql_voga_container mysqladmin ping -h "localhost" --silent; do
   echo "Esperando a que MySQL se inicie..."
-  sleep 1
+  sleep 10
 done
